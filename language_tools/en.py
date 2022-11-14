@@ -1,19 +1,33 @@
 #!/usr/bin/python3
 
+# pip install nltk
+# python -m nltk.downloader stopwords
 from nltk.tokenize.punkt import PunktSentenceTokenizer
 from nnsplit import NNSplit
 from nltk.tokenize import ToktokTokenizer
 from hunspell import Hunspell
 from nltk.stem.snowball import SnowballStemmer
 from nltk.stem import PorterStemmer
+from nltk.stem.snowball import SnowballStemmer
+from nltk.stem import PorterStemmer
 from nltk.corpus import stopwords
+
+# pip install nnsplit
+from nnsplit import NNSplit
+
+# apt install hunspell hunspell-en
+# pip install cyhunspell
+from hunspell import Hunspell
 
 #
 # Choose language tools
 #
 import spacy
 
-#
+# TODO: https://github.com/dlt-rilmta/emtsv    emagyar, Java-based, Python-integration
+# provides many tools for Hungarian language
+
+
 # sentence segmenter
 #
 # Spacy
