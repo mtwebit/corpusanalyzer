@@ -1,0 +1,4 @@
+nltk
+cyhunspell
+pycld3
+nnsplit

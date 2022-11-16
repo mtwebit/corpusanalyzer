@@ -11,8 +11,8 @@ import cld3     # language identification
 
 from nltk.probability import FreqDist
 from nltk.util import ngrams
-from .lexicon_tools.io import lexicon_save, lexicon_load
-from .lexicon_tools.build import lexicon_add_token, lexicon_lookup
+from ..lexicon_tools.io import lexicon_save, lexicon_load
+from ..lexicon_tools.build import lexicon_add_token, lexicon_lookup
 
 def corpus_analyzer(corpus, lexdir=False, outdir=False, ngramfile=False, ngramsize=2, tokenfile=False, debug=False):
     """[Performs various NLP tasks on the corpus]

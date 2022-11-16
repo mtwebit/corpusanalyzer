@@ -6,7 +6,7 @@ from nltk.tokenize.punkt import PunktSentenceTokenizer
 from nltk.tokenize import ToktokTokenizer
 from nltk.corpus import stopwords
 
-# apt install hunspell hunspell-hu
+# apt install hunspell hunspell-hu libhunspell-dev
 # pip install cyhunspell
 from hunspell import Hunspell
 
@@ -35,3 +35,5 @@ stop_words = stopwords.words('hungarian') + \
      # ábra', 'látható', 'például', 'vesz', 'észre', 'lehetővé', 'tenni', 'lásd', 'fejezet', 'lásd', 'ily', 'módon' ]
 
 print("Hungarian language tools loaded.")
+
+print(stemmer("ébresztőt"))
