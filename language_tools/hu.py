@@ -33,7 +33,3 @@ stemmer = Hunspell('hu_HU', system_encoding='UTF-8', hunspell_data_dir='/usr/sha
 stop_words = stopwords.words('hungarian') + \
      [ 'mind', 'két', 'első', 'azaz']
      # ábra', 'látható', 'például', 'vesz', 'észre', 'lehetővé', 'tenni', 'lásd', 'fejezet', 'lásd', 'ily', 'módon' ]
-
-print("Hungarian language tools loaded.")
-
-print(stemmer("ébresztőt"))
